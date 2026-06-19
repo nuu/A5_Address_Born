@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "A Finite Address--Born Package over the A5 Substrate: Regular Capacity, Readout Bits, and Kernel Admission"
+authors:
+  - given-names: "Masaru"
+    family-names: "Numagaki"
+    orcid: "https://orcid.org/0000-0001-5683-0845"
+version: "1.0"
+date-released: "2026-06-19"
+repository-code: "https://github.com/nuu/A5_Address_Born"
+url: "https://github.com/nuu/A5_Address_Born"
+abstract: >
+  This repository accompanies a finite Address--Born readout package over
+  the A5 substrate.  The paper does not claim to derive the general
+  Hilbert-space Born rule, solve the measurement problem, complete Bell or
+  contextuality analysis, or supply quantum gravity.  Its narrower aim is to
+  isolate the role-side data required by a later Material--Role Separation
+  framework.  Starting from the regular address container C[A5], the package
+  fixes the irreducible channel labels Irr(A5) and the finite channel-capacity
+  measure mu_AB(rho) = dim(rho)^2 / 60.  Observation probabilities are kept
+  separate from this capacity measure and are expressed through admitted
+  setup-dependent kernels K_{Sigma,P}.  The double cover 2I supplies signed
+  readout bits and a signal/contrast skeleton rather than an independent
+  probability law.  The resulting export bundle AB_Role records address
+  support, Plancherel-type channel weight, readout bits, kernel admission, and
+  explicit non-claim firewalls for downstream comparison with material-side
+  sectors.
+license: Apache-2.0
+keywords:
+  - "A5 symmetry"
+  - "Finite readout"
+  - "Address space"
+  - "Born rule"
+  - "Plancherel measure"
+  - "Representation theory"
+  - "Formal verification"
